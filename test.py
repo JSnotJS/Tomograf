@@ -50,3 +50,6 @@ def Bresenham(x1, y1, x2, y2):
 
 
 print(*Bresenham(1,1,7,4)[1])
+xp,yp,radius,xoff,yoff, s ,w= 0,0,0,0,0,0,0,0
+if xoff < xp + radius < xoff + s and yoff < yp + radius < yoff + w:
+    pass
